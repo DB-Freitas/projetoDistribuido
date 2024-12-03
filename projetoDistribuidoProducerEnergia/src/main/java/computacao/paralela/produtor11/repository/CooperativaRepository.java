@@ -10,6 +10,5 @@ import java.util.List;
 
 @Repository
 public interface CooperativaRepository extends JpaRepository<DadosEnergia,Integer> {
-    @Query(value = "SELECT * FROM dados WHERE tipo_cafe_colhido = :tipo_cafe AND cooperativa_id = :cooperativa_id", nativeQuery = true)
-    List<DadosEnergia> findValidOrder(@Param("tipo_cafe") Integer tipo_cafe, @Param("cooperativa_id") Integer cooperativa_id);
+
 }

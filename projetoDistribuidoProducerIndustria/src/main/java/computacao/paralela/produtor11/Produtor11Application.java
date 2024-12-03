@@ -16,7 +16,5 @@ public class Produtor11Application {
 
     public static void main(String[] args) {
         ApplicationContext context = SpringApplication.run(Produtor11Application.class, args);
-
-
     }
 }
